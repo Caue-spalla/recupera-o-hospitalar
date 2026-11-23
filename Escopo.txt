@@ -1,0 +1,40 @@
+A nota da ADC2 será composta:
+ 
+60% - Somatória das notas das atividades anteriores
+40% - Esta atividade 
+
+IMPORTANTE (Prévia no dia 13/11): Teremos uma apresentação intermediária do andamento do projeto. É esperado que vocês apresentem o planejamento contendo a temática escolhida, a plataforma computacional, as variáveis de entrada e os resultados esperados. Também espera-se que apresentem soluções já existentes no mercado para esta aplicação e onde o projeto de vocês se diferencia. Esta primeira apresentação valerá 25% da nota desta atividade (equivalente a 1 ponto na ADC2).
+
+O mercado de tecnologia não compra ideias no papel; ele busca protótipos funcionais. Como fechamento da nossa disciplina, a missão de cada equipe é desenvolver uma aplicação interativa que resolva um problema de missão crítica utilizando os algoritmos de Teoria dos Grafos que estudamos ao longo do semestre.
+
+Vocês não farão uma apresentação de slides tradicional. O grupo deverá construir a solução na forma de um site, aplicação web, dashboard ou notebook interativo público. No dia do seminário final, vocês vão utilizar exclusivamente este site para apresentar o projeto para a classe. O foco é mostrar uma solução real de engenharia, onde os colegas consigam interagir e visualizar o funcionamento do algoritmo na prática.
+
+Plataformas Sugeridas para a Entrega
+
+Para garantir que o projeto seja acessível por um link público e sirva como ferramenta visual para a apresentação, as equipes podem escolher o ambiente que melhor se adapta à linguagem do projeto:
+Google Colab (com ipywidgets): Ideal para programação em Python com bibliotecas de grafos (como networkx). Permite criar botões e controles interativos diretamente no notebook.
+Streamlit (via Community Cloud): Excelente opção para criar aplicações web completas e dashboards analíticos puramente em Python.
+Gradio / Hugging Face Spaces: Recomendado para grupos que escolherem os temas de Inteligência Artificial, permitindo criar interfaces visuais rápidas de forma direta.
+NetLogo Web ou Mesa (Python): Padrão-ouro para quem escolher simular ambientes complexos com comportamento emergente (ex: enxames de drones ou viralização).
+GitHub Pages (HTML/JS puro): Para as equipes que dominam desenvolvimento web e querem desenhar redes dinâmicas no navegador utilizando bibliotecas de visualização de dados.
+Os 4 Pilares da Entrega e Apresentação
+
+Durante a apresentação para a turma, a aplicação web de vocês deverá demonstrar claramente estes quatro blocos:
+
+O Cenário (Storytelling): Qual é a gravidade do problema real que vocês estão resolvendo? Qual o impacto direto para a sociedade ou para a indústria?
+O Motor Lógico (A Matemática): Qual algoritmo foi embarcado na solução e por que ele é o exato para essa topologia? É preciso explicar a mecânica do algoritmo de forma didática para o usuário leigo e para os colegas.
+A Arquitetura e o Código (A Implementação): Como a solução foi construída nos bastidores? O grupo deve apresentar a estrutura do código, as estruturas de dados escolhidas e justificar a utilização das ferramentas e bibliotecas empregadas. O objetivo é demonstrar o domínio técnico sobre as decisões de engenharia de software tomadas para resolver o problema.
+A Visualização Interativa (A Prática): O usuário (o professor ou a turma) deve poder alterar os parâmetros do seu sistema em tempo real na tela. Modificar o trânsito de uma via, derrubar um servidor com vírus, diminuir a bateria de um drone e ver o seu algoritmo recalculando o grafo e salvando o sistema imediatamente.
+Catálogo de Missões (Sugestões de Temas)
+
+Abaixo estão 10 cenários de altíssima demanda na engenharia atual. Estas são sugestões. Caso o grupo tenha uma proposta inovadora para aplicar grafos na nossa região (ou desejem utilizar o tema de seu TCC) ou em outros setores críticos, a proposta pode ser validada previamente com o professor.
+Enxames de VANTs em Busca e Salvamento: Coordenar drones autônomos varrendo uma área de desastre para encontrar sobreviventes, recalculando rotas dinamicamente com Dijkstra ao encontrar zonas de exclusão aérea.
+Inteligência Artificial e Grafos de Conhecimento (LLMs): Modelar como sistemas baseados em LLMs utilizam buscas em grafos (BFS/DFS) para cruzar entidades lógicas em bancos de dados estruturados e evitar alucinações.
+Logística de Energia e Recarga em Redes 5G: Aplicar algoritmos de fluxo máximo em redes para gerenciar a fila e a alocação de drones de entrega para bases de recarga automatizadas.
+Defesa Cibernética e Isolamento de Ameaças: Um ransomware invadiu uma topologia corporativa. O sistema utiliza o Teorema Max-Flow Min-Cut para identificar quais conexões cortar para isolar a ameaça com o mínimo de dano colateral à infraestrutura.
+Fatiamento de Rede (Network Slicing) em Backbones: Isolar rotas de baixíssima latência exclusivas para cirurgias remotas em hospitais, separando-as do tráfego comum utilizando Bellman-Ford e restrições de qualidade de serviço.
+Sistemas de Recomendação de E-commerce: Simular o motor lógico de sugestão de compras mapeando conexões ocultas de consumo por meio de emparelhamento em Grafos Bipartidos.
+Roteamento de Veículos Autônomos (Last-Mile): Otimizar rotas de veículos guiados (AGVs) em polos industriais utilizando variações do problema do Caixeiro Viajante e matrizes dinâmicas de adjacência.
+Orquestração de Microsserviços em Nuvem: Uma demonstração interativa de como infraestruturas em nuvem garantem inicializações seguras de instâncias utilizando Ordenação Topológica em grafos acíclicos.
+Epidemiologia e Viralização: Simular como campanhas de marketing agressivas ou ameaças biológicas se espalham em uma rede, localizando nós hiperconectados via Lema do Aperto de Mãos e Componentes Fortemente Conexos.
+Design de Layout em Placas de Circuito Impresso (PCB): Resolver cruzamentos de trilhas físicas na fabricação de hardware aplicando o Teorema de Kuratowski e Árvores Geradoras Mínimas para otimizar os caminhos elétricos no silício.
